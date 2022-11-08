@@ -633,7 +633,7 @@ const Eventdetail = ({ username }) => {
       </section>
 
       {/* map the function  */}
-      <section className='box userlisting'>
+      {/* <section className='box userlisting'>
         <h2>
           Feedback Form
         </h2>
@@ -648,21 +648,15 @@ const Eventdetail = ({ username }) => {
               <th>Question 2</th>
               <th>Question 2 input</th>
               <th>Question 3</th>
-              {/* <th>Question 3 input</th> */}
               
               <th>Question 4</th>
-              {/* <th>Question 4 input</th> */}
              
               <th>Question 5</th>
-              {/* <th>Question 5 input</th> */}
              
             
               <th>Question 6</th>
               <th>Ph No.</th>
               <th>login time</th>
-              
-             
-              {/* <th>logout time</th> */}
             </tr>
           </thead>
           <tbody>
@@ -677,9 +671,6 @@ const Eventdetail = ({ username }) => {
                     <td>{eventdata.PostOneInput}</td>
                     <td>{eventdata.PostTwoAns}</td>
                     <td>{eventdata.PostTwoInput}</td>
-                    
-               
-  
              
                     <td>  {eventdata.PostThreeAns && eventdata.PostThreeAns.map((threedata,i)=>{
                           return(
@@ -724,10 +715,10 @@ const Eventdetail = ({ username }) => {
             }
           </tbody>
         </table>
-      </section>
+      </section> */}
 
 
-      {/* <section className='box userlisting'>
+      <section className='box userlisting'>
         <h2>
           Registration Form
         </h2>
@@ -763,10 +754,11 @@ const Eventdetail = ({ username }) => {
                     <td>{key + 1}</td>
                     <td>{eventdata.username}</td>
                     <td>{eventdata.PreOneAns} </td>
-                    <td>{eventdata.PreOneInput} </td>
+                    <td>{eventdata.preOneInput} </td>
                   
 
                     <td>{eventdata.PreTwoAns}</td>
+                    <td>{eventdata.preTwoInput} </td>
 
                     <td>  {eventdata.PreThreeAns && eventdata.PreThreeAns.map((threedata,i)=>{
                           return(
@@ -780,6 +772,8 @@ const Eventdetail = ({ username }) => {
                          
                         })}
                      </td>
+
+
                     <td>{eventdata.PreFourAns}</td>
                     
                     
@@ -806,7 +800,7 @@ const Eventdetail = ({ username }) => {
             }
           </tbody>
         </table>
-      </section> */}
+      </section>
 
     </Layout>
   );
