@@ -257,7 +257,7 @@ const Dashboard = () => {
                                     type="submit"  onClick={togglePopup} >Agenda of Event</button> 
                                <button  className='feedback-btn'
                                     type="submit"
-                                    // disabled
+                                    disabled
                                     onClick={() => feedbackForm()}>Fill Your Feedback</button>
                             </li>
                             {/* } */}
