@@ -13,12 +13,11 @@ const db = getFirestore();
 import topbannerimg from '../public/images/topbanner.png';
 
 const threecheckdata = [
-    { name: "Identify ‘Racket situations’ in Personal Relationships" },
-    { name: "Identify ‘Racket’ situations in Professional/Business Relationships" },
-    { name: "Identify impacts related to Personal Health due to Life Sentences" },
-    { name: "Identify areas in Professional/Business Health which are impacted due to Life Sentences" },   
-    { name: "Identify how Life Sentences are impacting ability to create Personal Wealth" },   
-    { name: "Identify ‘Rackets’ impacting to Professional/Business Wealth" },   
+    { name: "Ask other to pass the referrals" },
+    { name: "Meet/Speak with other Partners and Listed Partner to build connection and know about them" },
+    { name: "Attend monthly and value meetings only if you do not have any other commitment" },
+    { name: "Wait for someone to tell about their requirements to identify it as a referral" },   
+    { name: "None of the above" },   
       
 ];
 
