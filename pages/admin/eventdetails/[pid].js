@@ -633,7 +633,7 @@ const Eventdetail = ({ username }) => {
       </section>
 
       {/* map the function  */}
-      {/* <section className='box userlisting'>
+      <section className='box userlisting'>
         <h2>
           Feedback Form
         </h2>
@@ -646,10 +646,10 @@ const Eventdetail = ({ username }) => {
               <th>Question 1</th>
               <th>Question 1 input</th>
               <th>Question 2</th>
-              <th>Question 2 input</th>
               <th>Question 3</th>
               
               <th>Question 4</th>
+              <th>Question 4 input</th>
              
               <th>Question 5</th>
              
@@ -670,7 +670,6 @@ const Eventdetail = ({ username }) => {
                     <td>{eventdata.PostOneAns}</td>
                     <td>{eventdata.PostOneInput}</td>
                     <td>{eventdata.PostTwoAns}</td>
-                    <td>{eventdata.PostTwoInput}</td>
              
                     <td>  {eventdata.PostThreeAns && eventdata.PostThreeAns.map((threedata,i)=>{
                           return(
@@ -686,15 +685,9 @@ const Eventdetail = ({ username }) => {
                     
                    
                     <td>{eventdata.PostFourAns}</td>
-                    <td>  {eventdata.PostFiveAns && eventdata.PostFiveAns.map((fivedata,i)=>{
-                          return(
-                            <ul  key={i} className='checkbox-data'>
-                               {fivedata.isChecked && fivedata.isChecked === true ? <li>{fivedata.name}</li>:null } 
-                              
-                            </ul>
-                          )
-                        })}
-                     </td>
+                    <td>{eventdata.PostTwoInput}</td>
+                    <td>{eventdata.PostFiveAns}</td>
+                   
                     
                     <td>{eventdata.PostSixAns}</td>
 
@@ -715,7 +708,7 @@ const Eventdetail = ({ username }) => {
             }
           </tbody>
         </table>
-      </section> */}
+      </section>
 
 
       <section className='box userlisting'>
