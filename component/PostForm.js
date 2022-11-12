@@ -480,12 +480,12 @@ const PostForm = () => {
 
                                     
 
-                                    {fourcheck==="YesS" && (  <li>
+                                    {fourcheck==="Yes" && (  <li>
                                         <input type="text"
                                              id="fourInput"
                                             value={fourQuestionInput}
                                             name="questionFour"
-                                            placeholder='Yes'
+                                            placeholder='Why do you think'
                                             required
                                             onChange={(event) => {
                                                 setFourQuestionInput(event.target.value)
