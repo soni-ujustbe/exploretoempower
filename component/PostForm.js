@@ -480,12 +480,12 @@ const PostForm = () => {
 
                                     
 
-                                    {fourcheck==="Yes" && (  <li>
+                                    {fourcheck==="YesS" && (  <li>
                                         <input type="text"
                                              id="fourInput"
                                             value={fourQuestionInput}
                                             name="questionFour"
-                                            placeholder='then name few names or categories'
+                                            placeholder='Yes'
                                             required
                                             onChange={(event) => {
                                                 setFourQuestionInput(event.target.value)
@@ -502,7 +502,7 @@ const PostForm = () => {
 
                          {/* 5th question */}
                          <div className="form-row radio-buttons">
-                                <h2>5. Do you check UjustBe App first if you have your own your requirements?<sup>*</sup></h2>
+                                <h2>5. Do you check UjustBe App first if you have your own requirements?<sup>*</sup></h2>
                                 <ul>
 
                                     <li>
@@ -538,7 +538,7 @@ const PostForm = () => {
 
                         {/* 6th question */}
                         <div className="form-row radio-buttons">
-                            <h2>6. Will you accept help from Nucleus to develop your personality, if offered?  <sup>*</sup>  </h2>
+                            <h2>6. Will you accept help from Nucleus Team to develop your personality, if offered?  <sup>*</sup>  </h2>
                             <ul>
 
                                 <li>
